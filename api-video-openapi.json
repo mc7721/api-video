@@ -1,0 +1,808 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "api.video",
+        "description": "Stream your videos on your website or your application within few lines of codes! Our cloud infrastructure allows you to host and broadcast your on demand and live videos worldwide thanks to our CDN. We encode on the go to facilitate immediate playback, enhancing viewer experiences across multiple devices and platforms. \n\nTo get started create your account [here](https:\/\/my.api.video)",
+        "termsOfService": ""
+    },
+    "servers": [],
+    "paths": {
+        "{{domain}}\/analytics\/videos?period=2019&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project For a year Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectForAYearPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}": {
+            "GET": {
+                "summary": "Analytics live Today",
+                "description": "",
+                "operationId": "AnalyticsLiveToday",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams?period=2019&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics lives project For a year Paginated",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectForAYearPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/players\/{{playerId}}": {
+            "PATCH": {
+                "summary": "Patch Player",
+                "description": "",
+                "operationId": "PatchPlayer",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Delete Player",
+                "description": "",
+                "operationId": "DeletePlayer",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "Show Player",
+                "description": "",
+                "operationId": "ShowPlayer",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/videos\/{{videoId}}": {
+            "PATCH": {
+                "summary": "Update Video",
+                "description": "",
+                "operationId": "UpdateVideo",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "Show Video",
+                "description": "",
+                "operationId": "ShowVideo",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Delete Video",
+                "description": "",
+                "operationId": "DeleteVideo",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01-01\/2019-01-05": {
+            "GET": {
+                "summary": "Analytics live for a day",
+                "description": "",
+                "operationId": "AnalyticsLiveForADay",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos?pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project Today Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectTodayPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-W01": {
+            "GET": {
+                "summary": "Analytics live for a week",
+                "description": "",
+                "operationId": "AnalyticsLiveForAWeek",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/videos\/{{videoId}}\/status": {
+            "GET": {
+                "summary": "Show Video Status",
+                "description": "",
+                "operationId": "ShowVideoStatus",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/players\/{{playerId}}\/logo": {
+            "POST": {
+                "summary": "Upload player logo",
+                "description": "",
+                "operationId": "UploadPlayerLogo",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/videos?period=2019-01&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project For a month Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectForAMonthPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}": {
+            "GET": {
+                "summary": "Analytics video Today",
+                "description": "",
+                "operationId": "AnalyticsVideoToday",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/videos\/{{videoId}}\/captions\/en": {
+            "PATCH": {
+                "summary": "Update Caption",
+                "description": "",
+                "operationId": "UpdateCaption",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "Show Caption",
+                "description": "",
+                "operationId": "ShowCaption",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "DELETE": {
+                "summary": "Delete Caption",
+                "description": "",
+                "operationId": "DeleteCaption",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "POST": {
+                "summary": "Upload Caption",
+                "description": "",
+                "operationId": "UploadCaption",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/videos?period=2019-01-01&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project For a day Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectForADayPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/videos\/{{videoId}}\/captions": {
+            "GET": {
+                "summary": "List Caption",
+                "description": "",
+                "operationId": "ListCaption",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/videos": {
+            "GET": {
+                "summary": "Analytics videos project Today",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectToday",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/players": {
+            "POST": {
+                "summary": "Create Player",
+                "description": "",
+                "operationId": "CreatePlayer",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "List Players",
+                "description": "",
+                "operationId": "ListPlayers",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01": {
+            "GET": {
+                "summary": "Analytics live for a month",
+                "description": "",
+                "operationId": "AnalyticsLiveForAMonth",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01-01\/2019-01-05": {
+            "GET": {
+                "summary": "Analytics video for a date range",
+                "description": "",
+                "operationId": "AnalyticsVideoForADateRange",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/auth\/refresh": {
+            "POST": {
+                "summary": "Authenticate - Refresh token",
+                "description": "",
+                "operationId": "AuthenticateRefreshToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/videos\/{{videoId}}\/thumbnail": {
+            "POST": {
+                "summary": "Upload video thumbnail",
+                "description": "",
+                "operationId": "UploadVideoThumbnail",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "PATCH": {
+                "summary": "Pick video thumbnail with timecode",
+                "description": "Pick a thumbnail from the given time code.\n\nIt may take up to 1h before the new thumbnail to be delivered by our CDN.\n",
+                "operationId": "PickVideoThumbnailWithTimecode",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams?period=2019-01-01&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics lives project For a day Paginated",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectForADayPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/tokens": {
+            "POST": {
+                "summary": "Generate a token",
+                "description": "For the moment, tokens allow only to upload files for someone else's account.\n\nWhen given a token, anyone can upload a file to the URI https:\/\/ws.api.video\/upload?token=<insert your token here>.",
+                "operationId": "GenerateAToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/live-streams\/{{liveStreamId}}": {
+            "DELETE": {
+                "summary": "Delete Live Stream",
+                "description": "",
+                "operationId": "DeleteLiveStream",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "Show Live Stream",
+                "description": "",
+                "operationId": "ShowLiveStream",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "PATCH": {
+                "summary": "Update a Live",
+                "description": "",
+                "operationId": "UpdateALive",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams": {
+            "GET": {
+                "summary": "Analytics lives project Today",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectToday",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/auth\/api-key": {
+            "POST": {
+                "summary": "Authenticate - Get Access Token",
+                "description": "",
+                "operationId": "AuthenticateGetAccessToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams?period=2019-01-01\/2019-02-15&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics lives project For a date range Paginated",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectForADateRangePaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/sessions\/{{sessionId}}\/events?currentPage=1&pageSize=25": {
+            "GET": {
+                "summary": "Analytics Session Events",
+                "description": "Get session's events analytics for building engagement",
+                "operationId": "AnalyticsSessionEvents",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019": {
+            "GET": {
+                "summary": "Analytics video for a year",
+                "description": "",
+                "operationId": "AnalyticsVideoForAYear",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/live-streams\/{{liveStreamId}}\/thumbnail": {
+            "POST": {
+                "summary": "Upload a Live Thumbnail",
+                "description": "",
+                "operationId": "UploadALiveThumbnail",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/upload?token={{token}}": {
+            "POST": {
+                "summary": "Upload delegated video",
+                "description": "\nFor the moment, tokens allow only to upload files for someone else's account.\n\nWhen given a token, anyone can upload a file to the URI https:\/\/ws.api.video\/upload?token=<insert your token here>.",
+                "operationId": "UploadDelegatedVideo",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}{{source}}": {
+            "POST": {
+                "summary": "Upload Video (Size <= 128Mb)",
+                "description": "",
+                "operationId": "UploadVideo(size<128mb)",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/account": {
+            "GET": {
+                "summary": "Show account",
+                "description": "Provide quota usage informations like quota used, quota total, quota remaining and next reset date.",
+                "operationId": "ShowAccount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/videos": {
+            "POST": {
+                "summary": "Create Video",
+                "description": "",
+                "operationId": "CreateVideo",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/live-streams?pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "List Live Streams Paginated",
+                "description": "",
+                "operationId": "ListLiveStreamsPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos?period=2019-01-01\/2019-02-15&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project For a date range Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectForADateRangePaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/videos?currentPage=1&pageSize=50&sortBy=publishedAt&sortOrder=desc": {
+            "GET": {
+                "summary": "List Videos with Pagination",
+                "description": "",
+                "operationId": "ListVideosWithPagination",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "sortBy",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "sortOrder",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/live-streams?period=2019-W01&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics lives project For a week Paginated",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectForAWeekPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/live-streams": {
+            "POST": {
+                "summary": "Create a Live",
+                "description": "",
+                "operationId": "CreateALive",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "GET": {
+                "summary": "List Live Streams",
+                "description": "",
+                "operationId": "ListLiveStreams",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "{{domain}}\/analytics\/live-streams?pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics lives project Today Paginated",
+                "description": "",
+                "operationId": "AnalyticsLivesProjectTodayPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/players?pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "List Players Paginated",
+                "description": "",
+                "operationId": "ListPlayersPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01": {
+            "GET": {
+                "summary": "Analytics video for a month",
+                "description": "",
+                "operationId": "AnalyticsVideoForAMonth",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019": {
+            "GET": {
+                "summary": "Analytics live for a year",
+                "description": "",
+                "operationId": "AnalyticsLiveForAYear",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01-01": {
+            "GET": {
+                "summary": "Analytics live for a date range",
+                "description": "",
+                "operationId": "AnalyticsLiveForADateRange",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos?period=2019-W01&pageSize=50&currentPage=1": {
+            "GET": {
+                "summary": "Analytics videos project For a week Paginated",
+                "description": "",
+                "operationId": "AnalyticsVideosProjectForAWeekPaginated",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "currentPage",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01-01": {
+            "GET": {
+                "summary": "Analytics video for a day",
+                "description": "",
+                "operationId": "AnalyticsVideoForADay",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-W01": {
+            "GET": {
+                "summary": "Analytics video for a week",
+                "description": "",
+                "operationId": "AnalyticsVideoForAWeek",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "period",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
