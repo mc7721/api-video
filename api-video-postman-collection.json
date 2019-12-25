@@ -1,0 +1,1760 @@
+{
+    "id": "27fc67a578c49c8f2905e32bd4a2ab19",
+    "name": "api.video",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "e6495295c1d3cab453ddaba6b3bc2136",
+            "name": "Analytics videos project For a year Paginated",
+            "url": "{{domain}}\/analytics\/videos?period=2019&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "ae3f10968ad065f5c274b1a2633dc40a",
+            "name": "Analytics live Today",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3a8da3c93c3a8dde333e9d5ed3f7c1d",
+            "name": "Analytics lives project For a year Paginated",
+            "url": "{{domain}}\/analytics\/live-streams?period=2019&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "d35ce622ed7b24278243a6b076405c98",
+            "name": "Patch Player",
+            "url": "{{domain}}\/players\/{{playerId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PATCH",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "5350c67cb45f40ed3deee4c1e4262c87",
+            "name": "Delete Player",
+            "url": "{{domain}}\/players\/{{playerId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed5922cac65fc0fcf5cad7513e26ce7c",
+            "name": "Show Player",
+            "url": "{{domain}}\/players\/{{playerId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "e351cfa9892aa72689269e48332282fc",
+            "name": "Update Video",
+            "url": "{{domain}}\/videos\/{{videoId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PATCH",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "befce71849b03755b5438d4765c7b34d",
+            "name": "Show Video",
+            "url": "{{domain}}\/videos\/{{videoId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "b9db296d55c92ef6f8174179b952ceae",
+            "name": "Delete Video",
+            "url": "{{domain}}\/videos\/{{videoId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "521feafad838f4744323586a478e074c",
+            "name": "Analytics live for a day",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01-01\/2019-01-05",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f6ad515a02196f3fbddb901df09f91b",
+            "name": "Analytics videos project Today Paginated",
+            "url": "{{domain}}\/analytics\/videos?pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "180dc4b41cdb7a243ab6549f5719eb83",
+            "name": "Analytics live for a week",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-W01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "d48f3ce01724e183da6b047092513a9c",
+            "name": "Show Video Status",
+            "url": "{{domain}}\/videos\/{{videoId}}\/status",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "2c6b2b44496783d2c445633451fce658",
+            "name": "Upload player logo",
+            "url": "{{domain}}\/players\/{{playerId}}\/logo",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "2d6d066f074aaea6572e54e6cf658f8d",
+            "name": "Analytics videos project For a month Paginated",
+            "url": "{{domain}}\/analytics\/videos?period=2019-01&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "8159526678f55c788e8f24cf1c40ae7f",
+            "name": "Analytics video Today",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2b8fb27f61bfb41a6c0768fd2fbf7e2",
+            "name": "Update Caption",
+            "url": "{{domain}}\/videos\/{{videoId}}\/captions\/en",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PATCH",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "e69cf0242a9317918ab991c5e61e5fa9",
+            "name": "Show Caption",
+            "url": "{{domain}}\/videos\/{{videoId}}\/captions\/en",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1d5445cccad787e9c74310e9c1bfb6a",
+            "name": "Delete Caption",
+            "url": "{{domain}}\/videos\/{{videoId}}\/captions\/en",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "60095cd5cd7ab9979ef346a8a7cbb5e5",
+            "name": "Upload Caption",
+            "url": "{{domain}}\/videos\/{{videoId}}\/captions\/en",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "f6136fae842b32627db7f74b4fa52355",
+            "name": "Analytics videos project For a day Paginated",
+            "url": "{{domain}}\/analytics\/videos?period=2019-01-01&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "f99bfa72515209968a1a75824c3e7ace",
+            "name": "List Caption",
+            "url": "{{domain}}\/videos\/{{videoId}}\/captions",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "6467b5f3fffb506f6c82858bc1251991",
+            "name": "Analytics videos project Today",
+            "url": "{{domain}}\/analytics\/videos",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "20b328e6c3cbaf48d79fe88a42f660ac",
+            "name": "Create Player",
+            "url": "{{domain}}\/players",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b3ebb0d4dd9f88b39777904066c4c9b",
+            "name": "List Players",
+            "url": "{{domain}}\/players",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "37e4ca4ac6bb251f214bac6e5f8be0af",
+            "name": "Analytics live for a month",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9e63c8299b9e60fd59720119827c021",
+            "name": "Analytics video for a date range",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01-01\/2019-01-05",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "80b395cfc79998e7c1504396aa93fb60",
+            "name": "Authenticate - Refresh token",
+            "url": "{{domain}}\/auth\/refresh",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "cbc547170ade63ca6e383ea70ce69a57",
+            "name": "Upload video thumbnail",
+            "url": "{{domain}}\/videos\/{{videoId}}\/thumbnail",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "74a60334b3700c59de33ef967279f55b",
+            "name": "Pick video thumbnail with timecode",
+            "url": "{{domain}}\/videos\/{{videoId}}\/thumbnail",
+            "description": "Pick a thumbnail from the given time code.\n\nIt may take up to 1h before the new thumbnail to be delivered by our CDN.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PATCH",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f6dcc51281e16c35a70565d0a5a58d5",
+            "name": "Analytics lives project For a day Paginated",
+            "url": "{{domain}}\/analytics\/live-streams?period=2019-01-01&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "ae1b1cd3aed959f5389df79eb76bc70f",
+            "name": "Generate a token",
+            "url": "{{domain}}\/tokens",
+            "description": "For the moment, tokens allow only to upload files for someone else's account.\n\nWhen given a token, anyone can upload a file to the URI https:\/\/ws.api.video\/upload?token=<insert your token here>.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "036a7a8d6a25c2522e5915f4ea60d04f",
+            "name": "Delete Live Stream",
+            "url": "{{domain}}\/live-streams\/{{liveStreamId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "a7c4c21901c5a8db9d5c074881377baf",
+            "name": "Show Live Stream",
+            "url": "{{domain}}\/live-streams\/{{liveStreamId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "291f84208e08d6248478dba1a57d79ca",
+            "name": "Update a Live",
+            "url": "{{domain}}\/live-streams\/{{liveStreamId}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "PATCH",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "3306919e6348f40457d9c4a17f2e385b",
+            "name": "Analytics lives project Today",
+            "url": "{{domain}}\/analytics\/live-streams",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f91caba2e7e027d98857826020f5d99",
+            "name": "Authenticate - Get Access Token",
+            "url": "{{domain}}\/auth\/api-key",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "76f71deced1000afc574bb2c72d60069",
+            "name": "Analytics lives project For a date range Paginated",
+            "url": "{{domain}}\/analytics\/live-streams?period=2019-01-01\/2019-02-15&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "6e09b037685de5b3bcb0a9ab8976b489",
+            "name": "Analytics Session Events",
+            "url": "{{domain}}\/analytics\/sessions\/{{sessionId}}\/events?currentPage=1&pageSize=25",
+            "description": "Get session's events analytics for building engagement",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "083c4a4b397a99f270dccdf2d7dd6fd2",
+            "name": "Analytics video for a year",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "ce78c6b27141daf81e87e2351b3604da",
+            "name": "Upload a Live Thumbnail",
+            "url": "{{domain}}\/live-streams\/{{liveStreamId}}\/thumbnail",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "ee80a59aea5433d626ec5e3e065ac426",
+            "name": "Upload delegated video",
+            "url": "{{domain}}\/upload?token={{token}}",
+            "description": "\nFor the moment, tokens allow only to upload files for someone else's account.\n\nWhen given a token, anyone can upload a file to the URI https:\/\/ws.api.video\/upload?token=<insert your token here>.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "d61e26362ae5767778d608357abe7d21",
+            "name": "Upload Video (Size <= 128Mb)",
+            "url": "{{domain}}{{source}}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "29871f5a94880eece5898100803b2073",
+            "name": "Show account",
+            "url": "{{domain}}\/account",
+            "description": "Provide quota usage informations like quota used, quota total, quota remaining and next reset date.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bcb8cb76412c6d0e21032233e5d195c",
+            "name": "Create Video",
+            "url": "{{domain}}\/videos",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "342d2d665592c0ab42a0898c20fa8602",
+            "name": "List Live Streams Paginated",
+            "url": "{{domain}}\/live-streams?pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "d09c320b7f10e2673760c8e4d4fce68c",
+            "name": "Analytics videos project For a date range Paginated",
+            "url": "{{domain}}\/analytics\/videos?period=2019-01-01\/2019-02-15&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "6b62b09f041098fc84de7a9ef31cb8d7",
+            "name": "List Videos with Pagination",
+            "url": "{{domain}}\/videos?currentPage=1&pageSize=50&sortBy=publishedAt&sortOrder=desc",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortBy",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortOrder",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "049ed01833fa12c1552059c99c01eb90",
+            "name": "Analytics lives project For a week Paginated",
+            "url": "{{domain}}\/analytics\/live-streams?period=2019-W01&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b934b76a117c0afe43d642521260d75",
+            "name": "Create a Live",
+            "url": "{{domain}}\/live-streams",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "POST",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf196fcca23dd0226f3afc823e7b2857",
+            "name": "List Live Streams",
+            "url": "{{domain}}\/live-streams",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "0d6b0625d11be710d6e06dbd558c9032",
+            "name": "Analytics lives project Today Paginated",
+            "url": "{{domain}}\/analytics\/live-streams?pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "5ade441c05f723c4cd41262ee6768c12",
+            "name": "List Players Paginated",
+            "url": "{{domain}}\/players?pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "327ba35c59c65ff7bb727186e6207a57",
+            "name": "Analytics video for a month",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "500e8eeca892f05482768040255e49bf",
+            "name": "Analytics live for a year",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "f8cd8e30c939a27dbbec9701e9e41d1b",
+            "name": "Analytics live for a date range",
+            "url": "{{domain}}\/analytics\/live-streams\/{{liveStreamId}}?period=2019-01-01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "cae526f3d6233436141763db8a36752a",
+            "name": "Analytics videos project For a week Paginated",
+            "url": "{{domain}}\/analytics\/videos?period=2019-W01&pageSize=50&currentPage=1",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageSize",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "currentPage",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "36d36295ee88893ad12ddaaf379571ff",
+            "name": "Analytics video for a day",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-01-01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcf22c89e642ff1d41b9ea6fe46f6f97",
+            "name": "Analytics video for a week",
+            "url": "{{domain}}\/analytics\/videos\/{{videoId}}?period=2019-W01",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "period",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "27fc67a578c49c8f2905e32bd4a2ab19",
+            "rawModeData": ""
+        }
+    ]
+}
