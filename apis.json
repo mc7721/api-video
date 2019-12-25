@@ -4,14 +4,35 @@
     "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28779-api-video.jpg",
     "tags": [
         "have api",
+        "postman collections",
         "relative data",
         "videos"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-25",
+    "modified": "2019-12-25",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/api-video\/master\/apis.json",
     "specificationVersion": "0.14",
-    "apis": [],
+    "apis": [
+        {
+            "name": "api.video",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28779-api-video.jpg",
+            "humanURL": "https:\/\/api.video",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/api-video\/master\/api-video-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/api-video\/master\/api-video-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
     "x-common": [
         {
             "type": "APIs.json",
